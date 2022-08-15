@@ -14,3 +14,10 @@ main {
   grid-template: auto auto / repeat(5, 35px);
   gap: 10px;
 }
+
+.die{
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  
+}
