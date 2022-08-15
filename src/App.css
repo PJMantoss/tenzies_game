@@ -12,7 +12,7 @@ main {
 .dieContainer{
   display: grid;
   grid-template: auto auto / repeat(5, 1fr);
-  gap: 10px;
+  gap: 20px;
 }
 
 .die{
@@ -24,6 +24,7 @@ main {
   justify-content: center;
   align-items: center;
   background: white;
+  cursor: pointer;
 }
 
 .die > h2 {
