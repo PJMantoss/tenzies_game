@@ -3,9 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <main className="App">
-      Tenzies
-    </main>
+    <div className="App">
+      <main></main>
+    </div>
   );
 }
 
