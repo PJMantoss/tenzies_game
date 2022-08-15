@@ -2,6 +2,13 @@ import Die from './components/Die';
 import './App.css';
 
 function App() {
+
+  const allNewDice = () => {
+    let arr = [];
+    arr.length = 10;
+    for()
+  };
+
   return (
     <main>
       <div className='dieContainer'>
