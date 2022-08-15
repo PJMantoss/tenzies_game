@@ -1,4 +1,7 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 620px;
   height: 620px;
   text-align: center;
@@ -7,9 +10,6 @@
 }
 
 .App main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 320px;
   height: 320px;
   background: #f5f5f5;
