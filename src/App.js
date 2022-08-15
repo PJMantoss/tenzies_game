@@ -6,7 +6,10 @@ function App() {
   const allNewDice = () => {
     let arr = [];
     arr.length = 10;
-    for()
+    for(let i=0; i<arr.length; i++){
+      arr[i] = Math.floor(Math.random() * 9) + 1;
+      console.log
+    }
   };
 
   return (
