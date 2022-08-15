@@ -11,7 +11,7 @@ main {
 
 .dieContainer{
   display: grid;
-  grid-template: auto auto / repeat(5, 35px);
+  grid-template: auto auto / repeat(5, 38px);
   gap: 10px;
 }
 
