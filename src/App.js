@@ -11,6 +11,10 @@ function App() {
         <Die>4</Die>
         <Die>5</Die>
         <Die>6</Die>
+        <Die>7</Die>
+        <Die>8</Die>
+        <Die>9</Die>
+        <Die>10</Die>
       </div>
     </main>
   );
