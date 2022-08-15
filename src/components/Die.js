@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Die = ({value}) => {
   return (
@@ -6,4 +6,4 @@ const Die = ({value}) => {
   )
 }
 
-export default Die
+export default Die;
