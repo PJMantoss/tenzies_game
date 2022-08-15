@@ -8,9 +8,11 @@ function App() {
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
       arr[i] = Math.floor(Math.random() * 9) + 1;
-      console.log
+      console.log(arr);
     }
   };
+
+  allNewDice();
 
   return (
     <main>
