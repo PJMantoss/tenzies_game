@@ -17,6 +17,8 @@ function App() {
 
   allNewDice();
 
+  handleClick(() => {})
+
   return (
     <main>
       <div className='dieContainer'>
