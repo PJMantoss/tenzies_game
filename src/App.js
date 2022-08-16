@@ -9,8 +9,9 @@ function App() {
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
       arr[i] = Math.floor(Math.random() * 6) + 1;
-      console.log(arr);
     }
+
+    return setDiceNumbers(arr);
   };
 
   allNewDice();
