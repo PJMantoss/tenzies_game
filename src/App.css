@@ -23,7 +23,7 @@ main {
 }
 
 .roll-dice:focus{
-  box-shadow: inset;
+  box-shadow: inset 5px, 5px, 10px, 5px rgba(0, 0, 0, 0.7);
 }
 
 .dieContainer{
