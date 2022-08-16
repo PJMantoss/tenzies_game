@@ -24,6 +24,7 @@ function App() {
           return <Die value={diceNum} key={idx} />
         })}
       </div>
+      <button onClick={handleClick}>Roll</button>
     </main>
   );
 }
