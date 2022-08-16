@@ -17,7 +17,7 @@ function App() {
 
   allNewDice();
 
-  handleClick(() => {})
+  function handleClick(() => {})
 
   return (
     <main>
