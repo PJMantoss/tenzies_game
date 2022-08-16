@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   const [diceNumbers, setDiceNumbers] = useState(allNewDice);
 
-  const allNewDice = () => {
+  function allNewDice(){
     let arr = [];
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
