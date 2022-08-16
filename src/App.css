@@ -16,6 +16,9 @@ main > button {
   background: #5035ff;
   color: #fff;
   border: 0;
+  border-radius: 5px;
+  font-weight: bold;
+  text
 }
 
 .dieContainer{
