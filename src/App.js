@@ -19,7 +19,9 @@ function App() {
   return (
     <main>
       <div className='dieContainer'>
-        <Die value={1} />
+        {diceNumbers.map(diceNum => {
+          return <Die value={diceNum} />
+        })}
         <Die value={2} />
         <Die value={3} />
         <Die value={4} />
