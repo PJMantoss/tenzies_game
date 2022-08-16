@@ -18,7 +18,7 @@ function App() {
   allNewDice();
 
   function handleClick(){
-    setDiceNumbers("Clicked!")
+    setDiceNumbers()
   };
 
   return (
