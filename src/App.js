@@ -17,7 +17,11 @@ function App() {
 
   allNewDice();
 
-  function handleClick(() => {})
+  function handleClick(){
+    () => {
+      console.log("Clicked!")
+    }
+  };
 
   return (
     <main>
