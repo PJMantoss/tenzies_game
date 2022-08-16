@@ -17,7 +17,7 @@ function App() {
 
   allNewDice();
 
-  function handleClick(){
+  function rollDice(){
     setDiceNumbers()
   };
 
@@ -28,7 +28,7 @@ function App() {
           return <Die value={diceNum} key={idx} />
         })}
       </div>
-      <button onClick={handleClick}>Roll</button>
+      <button onClick={rollDice}>Roll</button>
     </main>
   );
 }
