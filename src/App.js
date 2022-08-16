@@ -18,9 +18,7 @@ function App() {
   allNewDice();
 
   function handleClick(){
-    () => {
-      console.log("Clicked!")
-    }
+    console.log("Clicked!")
   };
 
   return (
