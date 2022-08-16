@@ -15,6 +15,7 @@ main > button {
   padding: 8px 20px;
   background: #5035ff;
   color: #fff;
+  border: 0;
 }
 
 .dieContainer{
