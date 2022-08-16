@@ -18,7 +18,7 @@ function App() {
   allNewDice();
 
   function rollDice(){
-    setDiceNumbers(allNewDice)
+    setDiceNumbers(allNewDice);
   };
 
   return (
