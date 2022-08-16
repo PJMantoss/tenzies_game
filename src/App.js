@@ -12,7 +12,7 @@ function App() {
       arr[i] = Math.floor(Math.random() * 6) + 1;
     }
 
-    return setDiceNumbers(arr);
+    return arr;
   };
 
   allNewDice();
