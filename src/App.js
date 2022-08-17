@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Die from './components/Die';
+import {nanoid} from 'nanoid';
 import './App.css';
 
 function App() {
