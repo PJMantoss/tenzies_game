@@ -20,7 +20,7 @@ function App() {
   allNewDice();
 
   function rollDice(){
-    setDiceNumbers(allNewDice);
+    setDiceNumbers(diceNumbers.value);
   };
 
   return (
