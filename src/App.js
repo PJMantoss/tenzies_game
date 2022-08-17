@@ -30,7 +30,7 @@ function App() {
     <main>
       <div className='dieContainer'>
         {diceNumbers.map((diceNum, idx) => {
-          return <Die value={diceNum.value} key={idx} />
+          return <Die value={diceNum.value} key={diceNum.id} />
         })}
       </div>
       <button 
