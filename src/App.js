@@ -4,7 +4,7 @@ import './App.css';
 
 function App() {
   const [diceNumbers, setDiceNumbers] = useState({
-    value: allNewDice
+    value: allNewDice,
     isHeld: true
   });
 
