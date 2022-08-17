@@ -3,7 +3,9 @@ import Die from './components/Die';
 import './App.css';
 
 function App() {
-  const [diceNumbers, setDiceNumbers] = useState({});
+  const [diceNumbers, setDiceNumbers] = useState({
+    value: allNewDice
+  });
 
   function allNewDice(){
     let arr = [];
