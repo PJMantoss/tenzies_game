@@ -26,7 +26,7 @@ function App() {
   return (
     <main>
       <div className='dieContainer'>
-        {diceNumbers.map((diceNum, idx) => {
+        {diceNumbers.value.map((diceNum, idx) => {
           return <Die value={diceNum} key={idx} />
         })}
       </div>
