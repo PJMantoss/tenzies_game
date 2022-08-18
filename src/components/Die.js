@@ -6,7 +6,7 @@ const Die = ({value, isHeld}) => {
     backgroundColor: isHeld === '#59e391' : 'white'
   }
   return (
-    <div className={isHeld === true ? 'is-held' : 'die'}>
+    <div className='die'>
         <h2>{value}</h2>
     </div>
   )
