@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Die = ({value}) => {
+const Die = ({value, isHeld}) => {
   return (
     <div className='die'>
         <h2>{value}</h2>
