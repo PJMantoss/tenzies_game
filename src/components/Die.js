@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Die = ({value, isHeld}) => {
+const Die = ({value, isHeld, holdDice}) => {
 
   const styles = {
     backgroundColor: isHeld === true ? '#59e391' : 'white'
