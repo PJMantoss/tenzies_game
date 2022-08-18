@@ -3,7 +3,7 @@ import React from 'react';
 const Die = ({value, isHeld}) => {
 
   const style = {
-    backgroundColor: '#59e391'
+    backgroundColor: isHeld === '#59e391' : 'white'
   }
   return (
     <div className={isHeld === true ? 'is-held' : 'die'}>
