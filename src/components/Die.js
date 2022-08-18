@@ -7,7 +7,11 @@ const Die = ({value, isHeld, holdDice}) => {
   }
 
   return (
-    <div className='die' style={styles}>
+    <div 
+      className='die' 
+      style={styles}
+      onClick={holdDice}
+    >
         <h2>{value}</h2>
     </div>
   )
