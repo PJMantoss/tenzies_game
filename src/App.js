@@ -26,6 +26,10 @@ function App() {
     setDiceNumbers(allNewDice);
   };
 
+  function holdDice(id){
+    
+  };
+
   return (
     <main>
       <div className='dieContainer'>
