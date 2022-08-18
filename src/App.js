@@ -38,7 +38,7 @@ function App() {
                     value={diceNum.value} 
                     key={diceNum.id} 
                     isHeld={diceNum.isHeld}
-                    onClick={holdDice}
+                    holdDice={() => holdDice(diceNum.id)}
                   />
         })}
       </div>
