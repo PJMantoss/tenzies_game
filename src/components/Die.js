@@ -3,11 +3,11 @@ import React from 'react';
 const Die = ({value, isHeld}) => {
 
   const styles = {
-    backgroundColor: isHeld === '#59e391' : 'white'
+    backgroundColor: isHeld === t'#59e391' : 'white'
   }
 
   return (
-    <div className='die'>
+    <div className='die' style={styles}>
         <h2>{value}</h2>
     </div>
   )
