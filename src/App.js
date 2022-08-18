@@ -33,11 +33,12 @@ function App() {
   return (
     <main>
       <div className='dieContainer'>
-        {diceNumbers.map((diceNum, idx) => {
+        {diceNumbers.map(diceNum => {
           return <Die 
                     value={diceNum.value} 
                     key={diceNum.id} 
                     isHeld={diceNum.isHeld}
+                    onClick={holdDice}
                   />
         })}
       </div>
