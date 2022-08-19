@@ -7,18 +7,18 @@ function App() {
   const [diceNumbers, setDiceNumbers] = useState(allNewDice);
 
   function generateNewDie(){
-    return {}
+    return {
+        value: Math.floor(Math.random() * 6) + 1, 
+        isHeld: false,
+        id: nanoid()
+    }
   }
 
   function allNewDice(){
     let arr = [];
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
-      arr.push({
-        value: Math.floor(Math.random() * 6) + 1, 
-        isHeld: false,
-        id: nanoid()
-      });
+      arr.push();
     }
 
     return arr;
