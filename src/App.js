@@ -6,7 +6,9 @@ import './App.css';
 function App() {
   const [diceNumbers, setDiceNumbers] = useState(allNewDice);
 
-  function generateNewDie(){}
+  function generateNewDie(){
+    return {}
+  }
 
   function allNewDice(){
     let arr = [];
