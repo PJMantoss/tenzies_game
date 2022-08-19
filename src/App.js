@@ -28,8 +28,8 @@ function App() {
 
   function rollDice(){
     setDiceNumbers(oldDice => oldDice.map(die => {
-      return die.id ? 
-          {...oldDice, isHeld: !die.isHeld} : 
+      return die.isHeld ? 
+          die : 
           die
     }));
   };
