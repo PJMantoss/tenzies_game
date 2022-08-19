@@ -54,7 +54,8 @@ function App() {
   return (
     <main>
       <h1 className='title'>Tenzies</h1>
-      <p className='title'>Roll untill all dice aree the same.</p>
+      <p className='title'>Roll untill all dice aree the same. Click each die to freeze it
+      </p>
 
       <div className='dieContainer'>
         {diceNumbers.map(diceNum => {
