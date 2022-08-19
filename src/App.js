@@ -32,8 +32,8 @@ function App() {
     that was clicked based on the 'id' prop that was passed
     into the function
      */  
-    setDiceNumbers(oldDice => oldDice.map(() => {
-      return
+    setDiceNumbers(oldDice => oldDice.map(die => {
+      return die.id === id ? {...oldDice, isHeld: !die.isHeld} : die
     }));
   };
 
