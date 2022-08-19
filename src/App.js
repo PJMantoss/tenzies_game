@@ -23,7 +23,11 @@ function App() {
   allNewDice();
 
   function rollDice(){
-    setDiceNumbers(allNewDice);
+    setDiceNumbers(oldDice => oldDice.map(die => {
+      return die.id ? 
+          {...oldDice, isHeld: !die.isHeld} : 
+          die
+    }));
   };
 
   function holdDice(id){
