@@ -33,7 +33,9 @@ function App() {
     into the function
      */  
     setDiceNumbers(oldDice => oldDice.map(die => {
-      return die.id === id ? {...oldDice, isHeld: !die.isHeld} : die
+      return die.id === id ? 
+          {...oldDice, isHeld: !die.isHeld} : 
+          die
     }));
   };
 
