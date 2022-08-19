@@ -27,6 +27,11 @@ function App() {
   };
 
   function holdDice(id){
+    /* 
+    flip the 'isHeld' property on the object in the array
+    that was clicked based on the 'id' prop that was passed
+    into the function
+     */  
     console.log(id);
   };
 
