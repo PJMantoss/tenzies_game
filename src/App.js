@@ -33,7 +33,7 @@ function App() {
     into the function
      */  
     setDiceNumbers(oldDice => oldDice.map(() => {
-      
+      return
     }));
   };
 
