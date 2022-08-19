@@ -30,7 +30,7 @@ function App() {
     setDiceNumbers(oldDice => oldDice.map(die => {
       return die.isHeld ? 
           die : 
-          die
+          generateNewDie()
     }));
   };
 
