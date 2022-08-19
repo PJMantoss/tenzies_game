@@ -32,7 +32,9 @@ function App() {
     that was clicked based on the 'id' prop that was passed
     into the function
      */  
-    console.log(id);
+    setDiceNumbers(oldDice => oldDice.map(() => {
+      
+    }));
   };
 
   return (
