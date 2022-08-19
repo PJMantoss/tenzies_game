@@ -27,6 +27,10 @@ function App() {
   allNewDice();
 
   function rollDice(){
+    /*
+    Roll all new dice, but do NOT roll
+    those that are being held
+    */
     setDiceNumbers(oldDice => oldDice.map(die => {
       return die.isHeld ? 
           die : 
