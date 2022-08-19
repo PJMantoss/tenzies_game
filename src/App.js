@@ -53,6 +53,8 @@ function App() {
 
   return (
     <main>
+      <h1 className='title'>Tenzies</h1>
+      <p className='title'></p>
       <div className='dieContainer'>
         {diceNumbers.map(diceNum => {
           return <Die 
