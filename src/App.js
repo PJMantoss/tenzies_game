@@ -54,7 +54,8 @@ function App() {
   return (
     <main>
       <h1 className='title'>Tenzies</h1>
-      <p className='title'></p>
+      <p className='title'>Roll untill all dice aree the same.</p>
+
       <div className='dieContainer'>
         {diceNumbers.map(diceNum => {
           return <Die 
