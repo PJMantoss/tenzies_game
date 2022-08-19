@@ -31,7 +31,10 @@ main {
   margin: 0;
 }
 
-.instructions{}
+.instructions{
+  text-align: center;
+  margin-top: 0;
+}
 
 .dieContainer{
   display: grid;
