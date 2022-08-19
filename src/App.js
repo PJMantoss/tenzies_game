@@ -18,7 +18,7 @@ function App() {
     let arr = [];
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
-      arr.push();
+      arr.push(generateNewDie());
     }
 
     return arr;
