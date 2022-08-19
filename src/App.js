@@ -6,6 +6,8 @@ import './App.css';
 function App() {
   const [diceNumbers, setDiceNumbers] = useState(allNewDice);
 
+  function generateNewDie(){}
+
   function allNewDice(){
     let arr = [];
     arr.length = 10;
