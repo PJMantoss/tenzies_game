@@ -53,7 +53,7 @@ function App() {
   };
 
   useEffect(() => {
-    const allHeld = diceNumbers.every(dice => die.isHeld);
+    const allHeld = diceNumbers.every(dice => dice.isHeld);
     const firstValue = diceNumbers[0].value;
     const allSame = diceNumbers.every(dice => dice[0].value === firstValue);
     if(allHeld && allSame){
