@@ -41,6 +41,7 @@ function App() {
     }));
    } else {
     setTenzies(false);
+    setDiceNumbers(allNewDice());
    }
     
   };
