@@ -33,11 +33,16 @@ function App() {
     Roll all new dice, but do NOT roll
     those that are being held
     */
+   if(!tenzies){
     setDiceNumbers(oldDice => oldDice.map(die => {
       return die.isHeld ? 
           die : 
           generateNewDice()
     }));
+   } else {
+    setTenzies(false);
+   }
+    
   };
 
   function holdDice(id){
