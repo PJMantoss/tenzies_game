@@ -53,7 +53,8 @@ function App() {
   };
 
   useEffect(() => {
-    const allHeld = diceNumbers.every(die => die.isHeld)
+    const allHeld = diceNumbers.every(die => die.isHeld);
+    const firstValue = diceNumbers[0].value
     console.log("dice changed")
   }, [diceNumbers]);
 
