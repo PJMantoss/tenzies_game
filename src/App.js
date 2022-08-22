@@ -56,7 +56,7 @@ function App() {
     const allHeld = diceNumbers.every(dice => die.isHeld);
     const firstValue = diceNumbers[0].value;
     const allSame = diceNumbers.every(dice => dice[0].value === firstValue);
-    if(){
+    if(allHeld && allSame){
       console.log("You won!")
     };
     
