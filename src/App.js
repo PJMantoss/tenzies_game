@@ -52,7 +52,7 @@ function App() {
     }));
   };
 
-  useEffect(() => {}, []);
+  useEffect(() => {}, [dice]);
 
   return (
     <main>
