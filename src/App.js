@@ -53,6 +53,7 @@ function App() {
   };
 
   useEffect(() => {
+    const allHeld = diceNumbers.every(die => die.isHeld)
     console.log("dice changed")
   }, [diceNumbers]);
 
