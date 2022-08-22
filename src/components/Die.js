@@ -8,7 +8,7 @@ const Die = ({value, isHeld, holdDice}) => {
 
   return (
     <div 
-      className='die' 
+      className='dice' 
       style={styles}
       onClick={holdDice}
     >
