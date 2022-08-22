@@ -54,7 +54,7 @@ function App() {
 
   useEffect(() => {
     console.log("dice changed")
-  }, [dice]);
+  }, [diceNumbers]);
 
   return (
     <main>
