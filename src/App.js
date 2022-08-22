@@ -8,7 +8,7 @@ function App() {
   const [diceNumbers, setDiceNumbers] = useState(allNewDice);
   const [tenzies, setTenzies] = useState(false);
 
-  function generateNewDie(){
+  function generateNewDice(){
     return {
         value: Math.floor(Math.random() * 6) + 1, 
         isHeld: false,
@@ -20,7 +20,7 @@ function App() {
     let arr = [];
     arr.length = 10;
     for(let i=0; i<arr.length; i++){
-      arr.push(generateNewDie());
+      arr.push(generateNewDice());
     }
 
     return arr;
@@ -36,7 +36,7 @@ function App() {
     setDiceNumbers(oldDice => oldDice.map(die => {
       return die.isHeld ? 
           die : 
-          generateNewDie()
+          generateNewDice()
     }));
   };
 
