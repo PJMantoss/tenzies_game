@@ -54,7 +54,8 @@ function App() {
 
   useEffect(() => {
     const allHeld = diceNumbers.every(die => die.isHeld);
-    const firstValue = diceNumbers[0].value
+    const firstValue = diceNumbers[0].value;
+    const allSame = diceNumbers.every();
     console.log("dice changed")
   }, [diceNumbers]);
 
