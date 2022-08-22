@@ -53,10 +53,13 @@ function App() {
   };
 
   useEffect(() => {
-    const allHeld = diceNumbers.every(die => die.isHeld);
+    const allHeld = diceNumbers.every(dice => die.isHeld);
     const firstValue = diceNumbers[0].value;
-    const allSame = diceNumbers.every();
-    console.log("dice changed")
+    const allSame = diceNumbers.every(dice => dice[0].value === firstValue);
+    if(){
+      console.log("You won!")
+    };
+    
   }, [diceNumbers]);
 
   return (
