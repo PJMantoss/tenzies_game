@@ -85,7 +85,7 @@ function App() {
         className='roll-dice' 
         onClick={rollDice}
       >
-        Roll
+        {tenzies ? "New Game" : "Roll"}
       </button>
     </main>
   );
