@@ -58,7 +58,7 @@ function App() {
     const allSame = diceNumbers.every(dice => dice[0].value === firstValue);
     if(allHeld && allSame){
       setTenzies(true);
-      console.log("You won!")
+      console.log("You won!");
     };
     
   }, [diceNumbers]);
