@@ -52,7 +52,9 @@ function App() {
     }));
   };
 
-  useEffect(() => {}, [dice]);
+  useEffect(() => {
+    console.log("dice changed")
+  }, [dice]);
 
   return (
     <main>
